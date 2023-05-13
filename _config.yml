@@ -25,6 +25,7 @@ navbar-links:
     - COVIDtests.gov: "covidtests"
     - Kessel Run: "https://kesselrun.af.mil/"
     - Black Pearl: "https://fedscoop.com/navy-black-pearl-devsecops-platform-one/"
+  Experience: "resume"  
 
 ################
 # --- Logo --- #
