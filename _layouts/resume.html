@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{% assign resume = site.data.resume %}
+{% include resume/intro.html %}
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="index inner">
+    <div>{{ content }}</div>
+    <div>
+      <div class="entries">
+        {% include resume/basics.html %}
+        {% include resume/work.html %}
+        {% include resume/volunteer.html %}
+        {% include resume/education.html %}
+        {% include resume/awards.html %}
+        {% include resume/publications.html %}
+        {% include resume/skills.html %}
+        {% include resume/languages.html %}
+        {% include resume/interests.html %}
+        {% include resume/references.html %}
+      </div>
+    </div>
+  </div>
+</main>

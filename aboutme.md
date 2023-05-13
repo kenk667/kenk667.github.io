@@ -6,8 +6,8 @@ subtitle: Who I am and What I'm about
 
 My name is Ken Kato, I'm 
 
--something
--something else
+- something
+- something else
 
 ### My story
 
