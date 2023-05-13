@@ -21,9 +21,10 @@ author: Ken Kato
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-#    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  Projects:
+    - COVIDtests.gov: "https://beautifuljekyll.com"
+    - Kessel Run: "https://www.markdowntutorial.com/"
+    - Black Pearl: 
 
 ################
 # --- Logo --- #
