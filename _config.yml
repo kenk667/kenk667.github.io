@@ -22,9 +22,9 @@ author: Ken Kato
 navbar-links:
   About Me: "aboutme"
   Projects:
-    - COVIDtests.gov: "https://beautifuljekyll.com"
-    - Kessel Run: "https://www.markdowntutorial.com/"
-    - Black Pearl: 
+    - COVIDtests.gov: "covidtests"
+    - Kessel Run: "https://kesselrun.af.mil/"
+    - Black Pearl: "https://fedscoop.com/navy-black-pearl-devsecops-platform-one/"
 
 ################
 # --- Logo --- #
