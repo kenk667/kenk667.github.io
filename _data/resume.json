@@ -1,8 +1,7 @@
 {
-    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
     "basics": {
-      "name": "ken kato",
-      "label": "Entrepreneur In Residence, White House Presidential Innovation Fellows",
+      "name": "Ken Kato",
+      "label": "Entrepreneur Architect, Digital Transformation Specialist, Thought Leader, Civic Technologist",
       "image": "",
       "email": "kenk667@gmail.com",
       "phone": "",
@@ -37,8 +36,8 @@
         "startDate": "2019-10-31",
         "endDate": "",
         "highlights": [],
-        "url": "https://www.linkedin.com/company/white-house-presidential-innovation-fellows/",
-        "location": "Washington DC-Baltimore Area"
+        "url": "https://presidentialinnovationfellows.gov/",
+        "location": "Washington DC"
       },
       {
         "name": "DON Black Pearl",
@@ -114,137 +113,57 @@
     "publications": [],
     "skills": [
       {
-        "name": "Cloud Computing",
+        "name": "Cloud (AWS, C2S, SC2S, GCP, Azure, DigitalOcean)",
         "level": "",
         "keywords": []
       },
       {
-        "name": "Containerization",
+        "name": "IaC",
         "level": "",
         "keywords": []
       },
       {
-        "name": "DevOps",
+        "name": "Containers",
         "level": "",
         "keywords": []
       },
       {
-        "name": "Virtualization",
+        "name": "DevOps/DevSecOps",
         "level": "",
         "keywords": []
       },
       {
-        "name": "Networking",
+        "name": "Cybersecurity",
         "level": "",
         "keywords": []
       },
       {
-        "name": "Infrastructure",
+        "name": "Architecture",
         "level": "",
         "keywords": []
       },
       {
-        "name": "OCS 2007",
+        "name": "Agile",
         "level": "",
         "keywords": []
       },
       {
-        "name": "NetApp",
+        "name": "Zero Trust",
         "level": "",
         "keywords": []
       },
       {
-        "name": "Storage Area Networks",
+        "name": "Virtualization & Hypervisors",
         "level": "",
         "keywords": []
       },
       {
-        "name": "Vendor Management",
+        "name": "Networking & Infrastructure",
         "level": "",
         "keywords": []
       },
       {
-        "name": "Network Design",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Management",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Linux",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "VMware",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Office Communications Server",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Network Administration",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Microsoft SQL Server",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Linux Server",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "System Administration",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Servers",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Replication",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Network Engineering",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Lync",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Docker",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Cisco Technologies",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Cyber-security",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Microsoft Technologies",
+        "name": "Management & Leadership",
         "level": "",
         "keywords": []
       },
@@ -254,97 +173,12 @@
         "keywords": []
       },
       {
-        "name": "Server Administration",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Research",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Windows Server",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "SharePoint",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Cyber Defense",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Orchestration",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Openshift",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Blackberry Enterprise Server",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Troubleshooting",
-        "level": "",
-        "keywords": []
-      },
-      {
         "name": "Software Development",
         "level": "",
         "keywords": []
       },
       {
-        "name": "SIP",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "DNS",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "PaaS",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "VMware ESX",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "VMware Infrastructure",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Agile Methodologies",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Trading Systems",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Microsoft Exchange",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "VoIP",
+        "name": "IaaS & PaaS",
         "level": "",
         "keywords": []
       },
