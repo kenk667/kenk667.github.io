@@ -9,9 +9,3 @@ subtitle: Who I am and What I'm about
 Outside of my professional achievements, I am a husband, a self-taught watchmaker, an animal lover, cyclist, and semi-professional tinkerer. I love spending time with my family and indulging in my hobbies. I believe in giving back to the community through civic technology initiatives.
 
 I am always excited to tackle new challenges and create a positive impact that benefits as many people as possible. Whether it's through my technological entrepreneurship or mentoring the next generation of innovators, I am committed to using my skills and talents to make the world a better place.
-
-### My story
-
-Still working on this part!
-
-Here's something from like, an official looking government site, so it ***must*** be realzies? [link!](https://presidentialinnovationfellows.gov/fellows/ken-kato/)

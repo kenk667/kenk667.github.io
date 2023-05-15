@@ -2,571 +2,351 @@
 layout: base
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Ken Kato</title> 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap">
-    <style>:root {
-  /* Colors */
-  --primaryColor: #212529;
-  --secondaryColor: #95a5a6;
-  --accentColor: #f1c40f;
-  --linkColor: #2ecc71;
-  --mutedColor: #f4f6f6;
-
-  /* Typography */
-  --ratio: 1.25;
-  --scale0: 1rem;
-  --scale1: calc(var(--scale0) * var(--ratio));
-  --scale2: calc(var(--scale1) * var(--ratio));
-  --scale3: calc(var(--scale2) * var(--ratio));
-  --scale4: calc(var(--scale3) * var(--ratio));
-  --scale5: calc(var(--scale4) * var(--ratio));
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 14px;
-}
-
-body {
-  color: var(--primaryColor);
-  display: grid;
-  font: 1em/1.5 Lato, sans-serif;
-  gap: 2em;
-  grid-template-columns:
-    [full-start]
-    1fr
-    [main-start side-start]
-    minmax(min-content, 12em)
-    [side-end content-start]
-    minmax(min-content, 36em)
-    [main-end content-end]
-    1fr
-    [full-end];
-  grid-template-rows: auto [content] 0;
-  margin-bottom: 4em;
-}
-
-body::before {
-  content: '';
-  grid-column: full;
-  grid-row: content;
-}
-
-ol,
-ul {
-  padding-left: 1em;
-}
-
-li + li {
-  margin-top: 0.2em;
-}
-
-li::marker {
-  color: var(--mutedColor);
-}
-
-a {
-  color: var(--linkColor);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-a:focus,
-a:hover {
-  color: var(--accentColor);
-}
-
-h1,
-h2,
-h3,
-h5 {
-  font-weight: normal;
-}
-
-h1,
-h2,
-h3 {
-  line-height: 1.2;
-}
-
-h1 {
-  font-size: var(--scale5);
-}
-
-h2 {
-  color: var(--secondaryColor);
-  font-size: var(--scale4);
-}
-
-h3 {
-  color: var(--accentColor);
-  font-size: var(--scale3);
-  grid-column: side;
-  margin-bottom: 1rem;
-}
-
-h4 {
-  font-size: var(--scale2);
-}
-
-h5 {
-  font-size: var(--scale1);
-}
-
-h6 {
-  font-size: var(--scale0);
-}
-
-blockquote {
-  border-left: 0.2em solid var(--mutedColor);
-  padding-left: 1em;
-}
-
-cite {
-  color: var(--secondaryColor);
-  font-style: inherit;
-}
-
-cite::before {
-  content: '— ';
-}
-
-.masthead {
-  background: var(--mutedColor);
-  display: inherit;
-  gap: inherit;
-  grid-column: full;
-  grid-template-columns: inherit;
-  padding: 4em 0;
-  row-gap: 0;
-}
-
-.masthead > *,
-section {
-  grid-column: main;
-}
-
-article > * + *,
-blockquote > * + * {
-  margin-top: 0.6em;
-}
-
-.stack {
-  display: grid;
-  gap: 1.5em;
-}
-
-.grid-list {
-  display: grid;
-  gap: 1em;
-}
-
-.spaced-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.spaced-list:first-child::before {
-  border-bottom: 1px solid var(--mutedColor);
-  content: '';
-  flex-grow: 1;
-  margin: 0 1em;
-  order: 1;
-}
-
-.spaced-list > :nth-child(2) {
-  order: 2;
-}
-
-.tag-list {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-}
-
-.tag-list > li {
-  background: var(--mutedColor);
-  margin: 0 0.2em 0.2em 0;
-  padding: 0.2em 0.6em;
-}
-
-@media print, (min-width: 48em) {
-  h3 {
-    text-align: right;
-    margin-bottom: inherit;
-  }
-
-  .masthead > *,
-  section {
-    grid-column: content;
-  }
-
-  section {
-    display: contents;
-  }
-
-  .grid-list {
-    grid-template-columns: 1fr 1fr;
-  }
-}
 </style>
-  </head>
-  <body>
-      <header class="masthead">
-          <h1>Ken Kato</h1>
-          <!-- <h2>Entrepreneur In Residence, White House Presidential Innovation Fellows</h2> -->
-      <!--</header>
-      <section id="contact">
-        <h3>Contact</h3>
-        <div class="grid-list">
-            <div>
-              <h4>Email</h4>
-              <a href="mailto:kenk667@gmail.com">kenk667@gmail.com</a>
-            </div>
-            <div>
-              <h4>Phone</h4>
-              
-            </div>
-            <div>
-              <h4>Website</h4>
-              <a href=""></a>
-            </div>
-        </div>
-      </section> 
-        <section id="about">
-          <h3>About</h3>
-          <article>
-            <p>From start ups to work within the public sector, my journey has been one of curiosity that always persisted and pressed me to the bleeding edge and back. Innovator, disruptor, entrepreneur; looking forward to my challenges of tomorrow and work towards a solution today</p>
-          </article>
-        </section> -->
-        <section id="profiles">
-          <h3>Profiles</h3>
-          <div class="grid-list">
-              <div>
-                  <h4>LinkedIn</h4>
-                    <a href="https://www.linkedin.com/in/devsecops-kkato/">devsecops-kkato</a>
-              </div>
+</head>
+<body>
+    <header class="masthead">
+        <h1>Ken Kato</h1>
+        <!-- <h2>Entrepreneur In Residence, White House Presidential Innovation Fellows</h2> -->
+    <!--</header>
+    <section id="contact">
+      <h3>Contact</h3>
+      <div class="grid-list">
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:kenk667@gmail.com">kenk667@gmail.com</a>
           </div>
-        </section>
+          <div>
+            <h4>Phone</h4>
+            
+          </div>
+          <div>
+            <h4>Website</h4>
+            <a href=""></a>
+          </div>
+      </div>
+    </section> 
+      <section id="about">
+        <h3>About</h3>
+        <article>
+          <p>From start ups to work within the public sector, my journey has been one of curiosity that always persisted and pressed me to the bleeding edge and back. Innovator, disruptor, entrepreneur; looking forward to my challenges of tomorrow and work towards a solution today</p>
+        </article>
+      </section> -->
+      <section id="profiles">
+        <h3>Profiles</h3>
+        <div class="grid-list">
+            <div>
+                <h4>LinkedIn</h4>
+                  <a href="https://www.linkedin.com/in/devsecops-kkato/">devsecops-kkato</a>
+            </div>
+        </div>
+      </section>
 
-      <section id="work">
-        <h3>Work</h3>
-        <div class="stack">
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Login.gov</h4>
-                  <span>
-                    <time datetime="2022-02-28">Feb 2022</time> –
-                    Present
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Platform Advisor</strong>
-                    <a href=""></a>
-                </div>
-              </header>
-                <p>As an experienced platform and enterprise architect, I am thrilled to accept the challenges that login.gov has to offer!</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>White House Presidential Innovation Fellows</h4>
-                  <span>
-                    <time datetime="2019-10-31">Oct 2019</time> –
-                    Present
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Entrepreneur in residence, White House Presidential Innovation Fellowship</strong>
-                    <a href="https://www.linkedin.com/company/white-house-presidential-innovation-fellows/">www.linkedin.com/company/white-house-presidential-innovation-fellows</a>
-                </div>
-              </header>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>DON Black Pearl</h4>
-                  <span>
-                    <time datetime="2019-10-31">Oct 2019</time> –
-                    <time datetime="2022-02-28">Feb 2022</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Director &amp; Founder </strong>
-                    <a href="https://www.linkedin.com/company/don-black-pearl/">www.linkedin.com/company/don-black-pearl</a>
-                </div>
-              </header>
-                <p>Founded the DevOps development platform Black Pearl, conceived and delivered within 75 days to the Dept of the Navy. The concept began when many programs across the defense department struggled to understand how to apply patterns like DevSecOps and it was done on a shoe string budget compared to typical spendeture for similar efforts not only in the Dept of the Navy, but across all federal agencies</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>US Navy</h4>
-                  <span>
-                    <time datetime="2019-10-31">Oct 2019</time> –
-                    <time datetime="2022-01-31">Jan 2022</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Entrepreneur In Residence</strong>
-                    <a href="https://www.linkedin.com/company/us-navy/">www.linkedin.com/company/us-navy</a>
-                </div>
-              </header>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Kessel Run</h4>
-                  <span>
-                    <time datetime="2017-04-30">Apr 2017</time> –
-                    <time datetime="2019-09-30">Sep 2019</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Enterprise Architect: Platform &amp; Cloud </strong>
-                    <a href="https://www.linkedin.com/company/kesselrun/">www.linkedin.com/company/kesselrun</a>
-                </div>
-              </header>
-                <p>Among the founding members of this amazing detachment within the USAF that brings DevSecOps and agile development to the AF to create software that our airmen love.</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>MITRE</h4>
-                  <span>
-                    <time datetime="2015-01-31">Jan 2015</time> –
-                    <time datetime="2019-09-30">Sep 2019</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>DevOps &amp; Enterprise Archiect</strong>
-                    <a href="https://www.linkedin.com/company/mitre/">www.linkedin.com/company/mitre</a>
-                </div>
-              </header>
-                <p>I came to Mitre in search of challenges that helps build a stronger nation and what I've found are individuals with similar goals all withing towards a common goal: to ensure our country's success across various industries from healthcare to defense.</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Ken Kato Consulting</h4>
-                  <span>
-                    <time datetime="2012-01-31">Jan 2012</time> –
-                    <time datetime="2016-02-28">Feb 2016</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Founder</strong>
-                    <a href=""></a>
-                </div>
-              </header>
-                <p>Private consulting for various industries from healthcare to automotive that improved overall supply chain efficiency and delivery</p>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>MIT Lincoln Laboratory</h4>
-                  <span>
-                    <time datetime="2014-02-28">Feb 2014</time> –
-                    <time datetime="2015-01-31">Jan 2015</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Research Faculty, Sr. DevOps &amp; Cybersecurity Engineer</strong>
-                    <a href="https://www.linkedin.com/company/mit-lincoln-laboratory/">www.linkedin.com/company/mit-lincoln-laboratory</a>
-                </div>
-              </header>
-            </article>
-            <article>
-              <header>
-                <div class="spaced-list">
-                  <h4>Pivot, Inc.; a CME Group Company</h4>
-                  <span>
-                    <time datetime="2008-03-31">Mar 2008</time> –
-                    <time datetime="2014-03-31">Mar 2014</time>
-                  </span>
-                </div>
-                <div class="spaced-list">
-                    <strong>Infrastructure and Virtualization Architect</strong>
-                    <a href=""></a>
-                </div>
-              </header>
-                <p>The company grew from a start-up to its exit when acquired by the CME</p>
-            </article>
-        </div>
-      </section>
-      <section id="skills">
-        <h3>Skills</h3>
-        <div class="grid-list">
-            <div>
-                <h4>Cloud Computing</h4>
-            </div>
-            <div>
-                <h4>Containerization</h4>
-            </div>
-            <div>
-                <h4>DevOps</h4>
-            </div>
-            <div>
-                <h4>Virtualization</h4>
-            </div>
-            <div>
-                <h4>Networking</h4>
-            </div>
-            <div>
-                <h4>Infrastructure</h4>
-            </div>
-            <div>
-                <h4>OCS 2007</h4>
-            </div>
-            <div>
-                <h4>NetApp</h4>
-            </div>
-            <div>
-                <h4>Storage Area Networks</h4>
-            </div>
-            <div>
-                <h4>Vendor Management</h4>
-            </div>
-            <div>
-                <h4>Network Design</h4>
-            </div>
-            <div>
-                <h4>Management</h4>
-            </div>
-            <div>
-                <h4>Linux</h4>
-            </div>
-            <div>
-                <h4>VMware</h4>
-            </div>
-            <div>
-                <h4>Office Communications Server</h4>
-            </div>
-            <div>
-                <h4>Network Administration</h4>
-            </div>
-            <div>
-                <h4>Microsoft SQL Server</h4>
-            </div>
-            <div>
-                <h4>Linux Server</h4>
-            </div>
-            <div>
-                <h4>System Administration</h4>
-            </div>
-            <div>
-                <h4>Servers</h4>
-            </div>
-            <div>
-                <h4>Replication</h4>
-            </div>
-            <div>
-                <h4>Network Engineering</h4>
-            </div>
-            <div>
-                <h4>Lync</h4>
-            </div>
-            <div>
-                <h4>Docker</h4>
-            </div>
-            <div>
-                <h4>Cisco Technologies</h4>
-            </div>
-            <div>
-                <h4>Cyber-security</h4>
-            </div>
-            <div>
-                <h4>Microsoft Technologies</h4>
-            </div>
-            <div>
-                <h4>Cloud Foundry</h4>
-            </div>
-            <div>
-                <h4>Server Administration</h4>
-            </div>
-            <div>
-                <h4>Research</h4>
-            </div>
-            <div>
-                <h4>Windows Server</h4>
-            </div>
-            <div>
-                <h4>SharePoint</h4>
-            </div>
-            <div>
-                <h4>Cyber Defense</h4>
-            </div>
-            <div>
-                <h4>Orchestration</h4>
-            </div>
-            <div>
-                <h4>Openshift</h4>
-            </div>
-            <div>
-                <h4>Blackberry Enterprise Server</h4>
-            </div>
-            <div>
-                <h4>Troubleshooting</h4>
-            </div>
-            <div>
-                <h4>Software Development</h4>
-            </div>
-            <div>
-                <h4>SIP</h4>
-            </div>
-            <div>
-                <h4>DNS</h4>
-            </div>
-            <div>
-                <h4>PaaS</h4>
-            </div>
-            <div>
-                <h4>VMware ESX</h4>
-            </div>
-            <div>
-                <h4>VMware Infrastructure</h4>
-            </div>
-            <div>
-                <h4>Agile Methodologies</h4>
-            </div>
-            <div>
-                <h4>Trading Systems</h4>
-            </div>
-            <div>
-                <h4>Microsoft Exchange</h4>
-            </div>
-            <div>
-                <h4>VoIP</h4>
-            </div>
-            <div>
-                <h4>Kubernetes</h4>
-            </div>
-            <div>
-                <h4>Hybrid Cloud</h4>
-            </div>
-        </div>
-      </section>
-      <section id="languages">
-        <h3>Languages</h3>
-        <div class="grid-list">
-            <div>
-                <h4>English</h4>
-              Native Speaker
-            </div>
-        </div>
-      </section>
-  </body>
-</html>
+    <section id="work">
+      <h3>Work</h3>
+      <div class="stack">
+          <article>
+            <header>
+              <div class="spaced-list">
+                <h4>Login.gov</h4>
+                <span>
+                  <time datetime="2022-02-28">Feb 2022</time> –
+                  Present
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>Platform Advisor</strong>
+                  <a href=""></a>
+              </div>
+            </header>
+              <p>As an experienced platform and enterprise architect, I am thrilled to accept the challenges that login.gov has to offer!</p>
+          </article>
+          <article>
+            <header>
+              <div class="spaced-list">
+                <h4>White House Presidential Innovation Fellows</h4>
+                <span>
+                  <time datetime="2019-10-31">Oct 2019</time> –
+                  Present
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>Entrepreneur in residence, White House Presidential Innovation Fellowship</strong>
+                  <a href="https://www.linkedin.com/company/white-house-presidential-innovation-fellows/">www.linkedin.com/company/white-house-presidential-innovation-fellows</a>
+              </div>
+            </header>
+          </article>
+          <article>
+            <header>
+              <div class="spaced-list">
+                <h4>DON Black Pearl</h4>
+                <span>
+                  <time datetime="2019-10-31">Oct 2019</time> –
+                  <time datetime="2022-02-28">Feb 2022</time>
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>Director &amp; Founder </strong>
+                  <a href="https://www.linkedin.com/company/don-black-pearl/">www.linkedin.com/company/don-black-pearl</a>
+              </div>
+            </header>
+              <p>Founded the DevOps development platform Black Pearl, conceived and delivered within 75 days to the Dept of the Navy. The concept began when many programs across the defense department struggled to understand how to apply patterns like DevSecOps and it was done on a shoe string budget compared to typical spendeture for similar efforts not only in the Dept of the Navy, but across all federal agencies</p>
+          </article>
+          <article>
+            <header>
+              <div class="spaced-list">
+                <h4>US Navy</h4>
+                <span>
+                  <time datetime="2019-10-31">Oct 2019</time> –
+                  <time datetime="2022-01-31">Jan 2022</time>
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>Entrepreneur In Residence</strong>
+                  <a href="https://www.linkedin.com/company/us-navy/">www.linkedin.com/company/us-navy</a>
+              </div>
+            </header>
+          </article>
+          <article>
+            <header>
+              <div class="spaced-list">
+                <h4>Kessel Run</h4>
+                <span>
+                  <time datetime="2017-04-30">Apr 2017</time> –
+                  <time datetime="2019-09-30">Sep 2019</time>
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>Enterprise Architect: Platform &amp; Cloud </strong>
+                  <a href="https://www.linkedin.com/company/kesselrun/">www.linkedin.com/company/kesselrun</a>
+              </div>
+            </header>
+              <p>Among the founding members of this amazing detachment within the USAF that brings DevSecOps and agile development to the AF to create software that our airmen love.</p>
+          </article>
+          <article>
+            <header>
+              <div class="spaced-list">
+                <h4>MITRE</h4>
+                <span>
+                  <time datetime="2015-01-31">Jan 2015</time> –
+                  <time datetime="2019-09-30">Sep 2019</time>
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>DevOps &amp; Enterprise Archiect</strong>
+                  <a href="https://www.linkedin.com/company/mitre/">www.linkedin.com/company/mitre</a>
+              </div>
+            </header>
+              <p>I came to Mitre in search of challenges that helps build a stronger nation and what I've found are individuals with similar goals all withing towards a common goal: to ensure our country's success across various industries from healthcare to defense.</p>
+          </article>
+          <article>
+            <header>
+              <div class="spaced-list">
+                <h4>Ken Kato Consulting</h4>
+                <span>
+                  <time datetime="2012-01-31">Jan 2012</time> –
+                  <time datetime="2016-02-28">Feb 2016</time>
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>Founder</strong>
+                  <a href=""></a>
+              </div>
+            </header>
+              <p>Private consulting for various industries from healthcare to automotive that improved overall supply chain efficiency and delivery</p>
+          </article>
+          <article>
+            <header>
+              <div class="spaced-list">
+                <h4>MIT Lincoln Laboratory</h4>
+                <span>
+                  <time datetime="2014-02-28">Feb 2014</time> –
+                  <time datetime="2015-01-31">Jan 2015</time>
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>Research Faculty, Sr. DevOps &amp; Cybersecurity Engineer</strong>
+                  <a href="https://www.linkedin.com/company/mit-lincoln-laboratory/">www.linkedin.com/company/mit-lincoln-laboratory</a>
+              </div>
+            </header>
+          </article>
+          <article>
+            <header>
+              <div class="spaced-list">
+                <h4>Pivot, Inc.; a CME Group Company</h4>
+                <span>
+                  <time datetime="2008-03-31">Mar 2008</time> –
+                  <time datetime="2014-03-31">Mar 2014</time>
+                </span>
+              </div>
+              <div class="spaced-list">
+                  <strong>Infrastructure and Virtualization Architect</strong>
+                  <a href=""></a>
+              </div>
+            </header>
+              <p>The company grew from a start-up to its exit when acquired by the CME</p>
+          </article>
+      </div>
+    </section>
+    <section id="skills">
+      <h3>Skills</h3>
+      <div class="grid-list">
+          <div>
+              <h4>Cloud Computing</h4>
+          </div>
+          <div>
+              <h4>Containerization</h4>
+          </div>
+          <div>
+              <h4>DevOps</h4>
+          </div>
+          <div>
+              <h4>Virtualization</h4>
+          </div>
+          <div>
+              <h4>Networking</h4>
+          </div>
+          <div>
+              <h4>Infrastructure</h4>
+          </div>
+          <div>
+              <h4>OCS 2007</h4>
+          </div>
+          <div>
+              <h4>NetApp</h4>
+          </div>
+          <div>
+              <h4>Storage Area Networks</h4>
+          </div>
+          <div>
+              <h4>Vendor Management</h4>
+          </div>
+          <div>
+              <h4>Network Design</h4>
+          </div>
+          <div>
+              <h4>Management</h4>
+          </div>
+          <div>
+              <h4>Linux</h4>
+          </div>
+          <div>
+              <h4>VMware</h4>
+          </div>
+          <div>
+              <h4>Office Communications Server</h4>
+          </div>
+          <div>
+              <h4>Network Administration</h4>
+          </div>
+          <div>
+              <h4>Microsoft SQL Server</h4>
+          </div>
+          <div>
+              <h4>Linux Server</h4>
+          </div>
+          <div>
+              <h4>System Administration</h4>
+          </div>
+          <div>
+              <h4>Servers</h4>
+          </div>
+          <div>
+              <h4>Replication</h4>
+          </div>
+          <div>
+              <h4>Network Engineering</h4>
+          </div>
+          <div>
+              <h4>Lync</h4>
+          </div>
+          <div>
+              <h4>Docker</h4>
+          </div>
+          <div>
+              <h4>Cisco Technologies</h4>
+          </div>
+          <div>
+              <h4>Cyber-security</h4>
+          </div>
+          <div>
+              <h4>Microsoft Technologies</h4>
+          </div>
+          <div>
+              <h4>Cloud Foundry</h4>
+          </div>
+          <div>
+              <h4>Server Administration</h4>
+          </div>
+          <div>
+              <h4>Research</h4>
+          </div>
+          <div>
+              <h4>Windows Server</h4>
+          </div>
+          <div>
+              <h4>SharePoint</h4>
+          </div>
+          <div>
+              <h4>Cyber Defense</h4>
+          </div>
+          <div>
+              <h4>Orchestration</h4>
+          </div>
+          <div>
+              <h4>Openshift</h4>
+          </div>
+          <div>
+              <h4>Blackberry Enterprise Server</h4>
+          </div>
+          <div>
+              <h4>Troubleshooting</h4>
+          </div>
+          <div>
+              <h4>Software Development</h4>
+          </div>
+          <div>
+              <h4>SIP</h4>
+          </div>
+          <div>
+              <h4>DNS</h4>
+          </div>
+          <div>
+              <h4>PaaS</h4>
+          </div>
+          <div>
+              <h4>VMware ESX</h4>
+          </div>
+          <div>
+              <h4>VMware Infrastructure</h4>
+          </div>
+          <div>
+              <h4>Agile Methodologies</h4>
+          </div>
+          <div>
+              <h4>Trading Systems</h4>
+          </div>
+          <div>
+              <h4>Microsoft Exchange</h4>
+          </div>
+          <div>
+              <h4>VoIP</h4>
+          </div>
+          <div>
+              <h4>Kubernetes</h4>
+          </div>
+          <div>
+              <h4>Hybrid Cloud</h4>
+          </div>
+      </div>
+    </section>
+    <section id="languages">
+      <h3>Languages</h3>
+      <div class="grid-list">
+          <div>
+              <h4>English</h4>
+            Native Speaker
+          </div>
+      </div>
+    </section>
+</body>
