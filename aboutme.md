@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: About me
 subtitle: Who I am and What I'm about
 ---
