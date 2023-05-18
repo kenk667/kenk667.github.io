@@ -1,7 +1,7 @@
 {
     "basics": {
-//      "name": "Ken Kato",
-      "label": "Entrepreneur Architect, Digital Transformation Specialist, Thought Leader, Civic Technologist",
+      "name": "Ken Kato",
+      "label": "Entrepreneur, enterprise architect, digital transformer, thought leader, civic technologist, and somewhat of a touble maker.",
       "image": "",
       "summary": "From start ups to work within the public sector, my journey has been one of curiosity that always persisted and pressed me to the bleeding edge and back. Innovator, disruptor, entrepreneur; looking forward to my challenges of tomorrow and work towards a solution today",
       "location": {
@@ -16,93 +16,58 @@
         }
       ]
     },
-    "work": [
+    "work":  [
       {
-        "name": "Login.gov",
-        "position": "Platform Advisor",
-        "startDate": "2022-02-28",
-        "endDate": "",
-        "highlights": [],
-        "summary": "As an experienced platform and enterprise architect, I am thrilled to accept the challenges that login.gov has to offer!",
-        "url": "",
-        "location": "Washington DC"
+      "name": "TechSlice",
+      "position": "Advisory Board Member",
+      "startDate": "2022-10-01",
+      "endDate": "",
+      "summary": "A Software Product Agency that works with innovators and entrepreneurs to bring their ideas into reality. Contributed expertise in software platforms and integrations, market research, UX, marketing & branding, strategy, and compliance. Utilized DevOps, cyber security, and public sector experience to accelerate early-stage med-tech start-ups. Provided insight and guidance on federal regulatory and compliance issues. Offered cybersecurity insights from defense and intelligence experience to help start-ups mitigate potential intrusion points. Leveraged experience launching and running start-ups to optimize time and cost savings for new start-ups."
       },
       {
-        "name": "White House Presidential Innovation Fellows",
-        "position": "Entrepreneur in residence, White House Presidential Innovation Fellowship",
-        "startDate": "2019-10-31",
-        "endDate": "",
-        "highlights": [],
-        "url": "https://presidentialinnovationfellows.gov/",
-        "location": "Washington DC"
+      "name": "White House Presidential Innovation Fellowship",
+      "position": "Entrepreneur in Residence",
+      "startDate": "2019-10-01",
+      "endDate": "",
+      "summary": "Tackled the nation's toughest challenges as part of the White House Presidential Innovation Fellowship program. Collaborated closely with agency leads and aligned priorities set forth by the administration. Achievements include:\n\n- Ensured successful launch of covidtests.gov, reaching $100M+ unique users in a 3-hour window\n- Distributed free test kits to every American with 0% downtime or cyber incidents\n- Primary and co-author of policies in the Department of the Navy and the Office of the Secretary of Defense (OSD), raising labor and product quality while lowering average contract cost by 30%\n- Accelerated adoption of President Biden’s Executive Order on Improving the Nation’s Cybersecurity through the launch of a digital platform for FDA software bill of material adjudication\n- Advised NASA leadership on strategies and technological roadmaps for future space missions\n- Implemented continuous authority to operate (ATO) strategies, playbooks, and tech stacks, reducing ATO issuance average from 24 months to less than a week\n- Devised AI-based technologies for chest X-ray analysis to confirm COVID diagnosis with 80% accuracy."
       },
       {
-        "name": "DON Black Pearl",
-        "position": "Director & Founder ",
-        "startDate": "2019-10-31",
-        "endDate": "2022-02-28",
-        "highlights": [],
-        "summary": "Founded the DevOps development platform Black Pearl, conceived and delivered within 75 days to the Dept of the Navy. The concept began when many programs across the defense department struggled to understand how to apply patterns like DevSecOps and it was done on a shoe string budget compared to typical spendeture for similar efforts not only in the Dept of the Navy, but across all federal agencies",
-        "url": "https://www.linkedin.com/company/don-black-pearl/",
-        "location": "Washington DC"
+      "name": "White House Presidential Innovation Fellowship",
+      "position": "Director & Founder @ Black Pearl, Dept of the Navy",
+      "startDate": "2019-10-01",
+      "endDate": "2022-02-01",
+      "summary": "Founded and led Black Pearl, the Navy’s first cloud-based enterprise development platform and software factory. Achievements include:\n\n- Conceived, developed, and launched Black Pearl in under 30 days\n- Marketed and scaled the platform to meet the demands of 500,000 users in the first year\n- Gathered user feedback to continuously ship new features every 2 weeks\n- Achieved operational cost of $400k in the first year, representing only 20% of what other programs spent on research alone."
       },
       {
-        "name": "US Navy",
-        "position": "Entrepreneur In Residence",
-        "startDate": "2019-10-31",
-        "endDate": "2022-01-31",
-        "highlights": [],
-        "url": "https://www.linkedin.com/company/us-navy/",
-        "location": "Arlington VA"
+      "name": "MITRE",
+      "position": "Chief Architect, Cloud & Platform @ USAF Kessel Run",
+      "startDate": "2016-10-01",
+      "endDate": "2019-09-30",
+      "summary": "Served as Chief Architect, Cloud & Platform at USAF Kessel Run within MITRE. Collaborated on the MVP scope for a pathfinder with renowned technologists and experts. Achievements include:\n\n- Delivered MVP air tanker refueling app, saving the USAF $300M in fuel in the first year and an average of $450M annually\n- Optimized mid-air refueling to minimize risk and reduce total missions and personnel by 50%\n- Pioneered the first-ever software factory in the government, USAF Detachment 12: Kessel Run\n- Improved air operation's 72-hour target cycle time by 10% in the first year while spearheading new technologies for the fight against ISIS in Operation Inherent Resolve\n- Streamlined the average time to an Authority to Operate (ATO) from 24 months to a day through innovative tech stack development, automating compliance and security artifact collection\n- Transformed the ATO tech stack into the first continuous ATO framework, resulting in reduced mean time to an ATO and cost savings of an average of $1M per submission."
       },
       {
-        "name": "Kessel Run",
-        "position": "Enterprise Architect: Platform & Cloud ",
-        "startDate": "2017-04-30",
-        "endDate": "2019-09-30",
-        "highlights": [],
-        "summary": "Among the founding members of this amazing detachment within the USAF that brings DevSecOps and agile development to the AF to create software that our airmen love.",
-        "url": "https://www.linkedin.com/company/kesselrun/",
-        "location": "Boston, Massachusetts"
+      "name": "MITRE",
+      "position": "Sr. DevOps Architect & Sr. Cyber Security Engineer",
+      "startDate": "2015-01-01",
+      "endDate": "2016-10-31",
+      "summary": "Built Mitre’s first cyber range, the Cyber Proving Ground (CPG), providing federal agencies with a safe and secure training environment. Achievements include:\n\n- Improved deployment time from weeks to a few hours and enabled replication of any cyber environment through CPG's advanced features\n- Decreased satellite acquisition costs by $40M per contract by developing a software-defined ground system for NASA Goddard\n- Analyzed and assessed malware strains in a controlled lab environment\n- Reviewed and verified AI-driven security systems in DARPA's historic 2016 Cyber Grand Challenge, where Mayhem from All Secure emerged as the winner."
       },
       {
-        "name": "MITRE",
-        "position": "DevOps & Enterprise Archiect",
-        "startDate": "2015-01-31",
-        "endDate": "2019-09-30",
-        "highlights": [],
-        "summary": "I came to Mitre in search of challenges that helps build a stronger nation and what I've found are individuals with similar goals all withing towards a common goal: to ensure our country's success across various industries from healthcare to defense.",
-        "url": "https://www.linkedin.com/company/mitre/",
-        "location": "Bedford, MA"
+      "name": "Massachusetts Institute of Technology Lincoln Labs",
+      "position": "Research Faculty, Sr. DevOps & Cyber Security Engineer",
+      "startDate": "2014-02-01",
+      "endDate": "2015-01-31",
+      "summary": "Worked as a Research Faculty member at MIT Lincoln Laboratory, focusing on advanced technologies for critical national security needs. Achievements include:\n\n- Transitioned source code to the OSD’s Joint Mission Environment Test Capability (JMETC), doubling the footprint and increasing business\n- Analyzed and assessed malware strains from the wild in a controlled lab setting\n- Reviewed and verified AI-driven security systems in DARPA’s historic 2016 Cyber Grand Challenge, where Mayhem from All Secure emerged as the winner."
       },
       {
-        "name": "Ken Kato Consulting",
-        "position": "Founder",
-        "startDate": "2012-01-31",
-        "endDate": "2016-02-28",
-        "highlights": [],
-        "summary": "Private consulting for various industries from healthcare to automotive that improved overall supply chain efficiency and delivery",
-        "url": "",
-        "location": "Boston, Massachusetts, United States"
-      },
-      {
-        "name": "MIT Lincoln Laboratory",
-        "position": "Research Faculty, Sr. DevOps & Cybersecurity Engineer",
-        "startDate": "2014-02-28",
-        "endDate": "2015-01-31",
-        "highlights": [],
-        "url": "https://www.linkedin.com/company/mit-lincoln-laboratory/"
-      },
-      {
-        "name": "Pivot, Inc.; a CME Group Company",
-        "position": "Infrastructure and Virtualization Architect",
-        "startDate": "2008-03-31",
-        "endDate": "2014-03-31",
-        "highlights": [],
-        "summary": "The company grew from a start-up to its exit when acquired by the CME",
-        "url": ""
+      "name": "Ken Kato Consulting",
+      "position": "CEO & Founder",
+      "startDate": "2012-01-01",
+      "endDate": "2016-02-29",
+      "summary": "Established a consulting practice offering technical expertise and executive leadership to a range of company sizes, from start-ups to Fortune 10 companies."
       }
-    ],
+      ]
+      ,
     "volunteer": [],
     "education": [],
     "awards": [],
@@ -198,9 +163,5 @@
     ],
     "interests": [],
     "references": [],
-    "projects": [],
-    "meta": {
-      "version": "v1.0.0",
-      "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
-    }
+    "projects": []
   }
