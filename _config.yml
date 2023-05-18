@@ -118,7 +118,7 @@ edit_page_button: true
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "devops,devsecops,cybersecurity,civic tech,agile, digital transformation"
 
 ######################################
 # --- Colours / background image --- #
@@ -285,11 +285,9 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
+  -*.old
 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
 
