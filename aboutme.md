@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: home
 title: About me
-subtitle: Who I am and What I'm about
+subtitle: Nice to meet you! I'm Ken Kato.
 ---
 
 "Hello! I'm Ken Kato. With over a decade pushing the boundaries of what's possible and breaking down barriers across technology verticals from Finance to Defense . My passion for innovation has led me to launch the first software factory ever in the US Government, where I led the architectural decisions that became the blueprint for cloud operations within the Department of Defense . I am constantly seeking new ways to improve, and I thrive on the challenge of finding creative solutions to complex problems. My entrepreneurial spirit drives me to constantly identify new opportunities and create value for my customers and clients.
