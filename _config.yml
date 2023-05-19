@@ -129,11 +129,11 @@ keywords: "devops,devsecops,cybersecurity,civic tech,agile, digital transformati
 navbar-col: "#FF007F"
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
-page-col: "#EAEAEA"
+page-col: "#FFFFFF"
 text-col: "#404040"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#EAEAEA"
+footer-col: "#FF007F"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 footer-hover-col: "#0085A1"
@@ -144,6 +144,7 @@ footer-hover-col: "#0085A1"
 #navbar-img: "/assets/img/bgimage.png" 
 #footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
+#page color originail : #FFFFFF
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
